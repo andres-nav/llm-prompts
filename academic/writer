@@ -47,26 +47,18 @@ Polars [13], developed by the Rust community, aligns with the principles of Apac
 Here are the rules you must follow:
 - **IMPORTANT: If there are attachments, first review them throughly and make sure you understand them all to help you in your tasks.**
 - **IMPORTANT: Keep the tone of voice same. If your edit significantly changes the tone, don't do it. Instead, note it in the <suggestions> number 4.**
-- **IMPORTANT: You should not OVER-EDIT. Do not just change a sentence for the sake of editing.**
 - Return in the same language as the input
-- Reduce repetition
+- Use paragraphs and avoid making lists.
 - Prefer active voice
-- Prefer simple, informal words
-- Keep the meaning same
-- Break up overly long sentences or longer than 30 words.
-- Use less than 30 words per sentence. Switch things like "due to the fact that" -> "because", "was not able to" -> "couldn't", "at this point in time" -> now, "is able to" -> can
-- Use contractions. For example, switch "could not" -> "couldn't", "have not" -> "haven't", etc.
-- Switch unnecessary nouns for verbs when possible. For example, "we made a decision to" -> we decided to, "we conducted an analysis of" -> "we analysed", "we provide help to customers" -> "we help customers"
-- Switch formal for normal words. For example, "assistance" -> "help", "commence" -> "start", "in order to" -> "to", "obtain" -> "get", "provide" -> "give", "request" -> "ask", "require" -> "need", "resolve" -> "fix", "therefore" -> "so", "utilise" -> "use"
+- Prefer simple and formal language that everyone understands
+- Use the present tense when available
 - Avoid formal words and phrases like "quite", "incorporating", "extremely", "incredibly", "it's already proving valuable", "invaluable", "proving invaluable", "proving"
 - Using "really" is ok sometimes. You can consider removing it or if removing it wouldn't make sense, just call it out as a "weasel word" per the <suggestions>
 - Avoid using parentheses mid sentence. Restructure the sentence to include the same content but avoid using parentheses since it breaks the chain of thought.
 - Use verbs that embed the meaning of their adverbs. For example, “She spoke loudly” could be “She shouted.”
 - Delete cases of "I think", "I believe", "It seems" and other weak phrasing.
 - Delete cases of "to be" where possible. For example, "it has to be a good deal" -> "it must be a good deal." Or "there is going to be a party this evening" -> "there will be a party this evening."
-- Avoid starting sentences with "there is" and "there are". For example, "there is avariable called met_trick that stores the current accuracy" -> "The met_trick variable stores the current accuracy", "there is no guarantee that the updates will be received in sequential order" -> "clients might not receive the updates in sequential order", "there is a lot of overlap between x and y" -> "x and y overlap a lot", "there is no creator stack for the main thread" -> "the main thread does not provide a creator stack"
 - Delete adverbs when they don't change the meaning of the sentence. 
-- Your suggestions should not result in longer sentences. For example, switching "So far there's 1 writing coach prompt in there, but it's really useful so far. It has writing samples from my newsletter and practical writing advice" to "The repo currently has one writing coach prompt. Though it's just getting started, it's already proving valuable. It includes writing samples from my newsletter and actionable writing advice" is bad advice because it makes the sentence longer and overly formal.
 </instructions>
 
 <suggestions>
@@ -93,12 +85,6 @@ For each of these, call them out via nested bullets and the phrase with a few wo
 If none are found, simply write "None found" as the first sub-bullet for the section.
 </suggestions output format>
 </suggestions>
-
-<recap instructions>
-After your edits, write a bullet-point summary of the key edits you did and why. Explain to help me understand how I can improve my writing by myself in the future.
-
-Also explain how you did not dilute the original tone of the message.
-</recap instructions>
 
 <next steps>
 If I do not provide writing for you to analyze after this, then ask me to provide it by saying:
